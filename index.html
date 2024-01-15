@@ -28,6 +28,7 @@
     <title>AI中文社区,AI侦探社 - AI中文社区分享AI知识，AIGC社区，AI知识分享社区</title>
     <meta name="keywords" content="AI中文社区分享AI知识，AIGC社区，AI知识分享社区,www.huggface.org.cn">
     <meta name="description" content="AI中文社区 - 收集国内外优秀AI网站、AI资源网站、定时更新分享优质AI内容书签。www.huggface.org.cn">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="shortcut icon" href="./assets/images/favicon.png">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
     <link rel="stylesheet" href="./assets/css/fonts/linecons/css/linecons.css">
@@ -37,7 +38,10 @@
     <link rel="stylesheet" href="./assets/css/xenon-components.css">
     <link rel="stylesheet" href="./assets/css/xenon-skins.css">
     <link rel="stylesheet" href="./assets/css/nav.css">
-    <script src="./assets/js/jquery-1.11.1.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-7ymO4nGrkm372HoSbq1OY2DP4pEZnMiA+E0F3zPr+JQQtQ82gQ1HPY3QIVtztVua" crossorigin="anonymous"></script>
+    <!-- <script src="./assets/js/jquery-1.11.1.min.js"></script> -->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -77,15 +81,16 @@
                         </a>
                     </li>
                     <li>
-                        <a>
+                        <a href="#GPT拼车资源">
                             <i class="linecons-diamond"></i>
-                            <span class="title">GPT免费资源</span>
+                            <span class="title">GPT拼车资源</span>
+                            <span class="label label-pink pull-right hidden-collapsed">Hot</span>
                         </a>
-                        <ul style="display: block;">
+                        <!-- <ul style="display: block;">
                             <li>
                                 <a href="#GPT3.5资源" class="smooth">
                                     <span class="title">GPT3.5资源</span>
-                                    <span class="label label-pink pull-right hidden-collapsed">Hot</span>
+                                  
                                 </a>
                             </li>
                             <li>
@@ -94,14 +99,8 @@
                                     <span class="label label-pink pull-right hidden-collapsed">100+</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#其它资源" class="smooth">
-                                    <span class="title">其它资源</span>
-
-                                </a>
-                            </li>
                            
-                        </ul>
+                        </ul> -->
                     </li>
                     <li>
                         <a>
@@ -141,30 +140,37 @@
                         </a>
                     </li>
 
-
                     <li>
-                        <a href="#大语言模型" class="smooth">  <i class="linecons-lightbulb"></i>
-                            <span class="title">AI写作办公工具</span>
-                            <span class="label label-pink pull-right hidden-collapsed">100+</span>
+                        <a>
+                            <i class="linecons-thumbs-up"></i>
+                            <span class="title">AI工具集</span>
                         </a>
-                    </li>
-                    <li>
-                        <a href="#图片设计" class="smooth">  <i class="linecons-lightbulb"></i>
-                            <span class="title">AI绘画创作工具</span>
+                        <ul style="display: block;">
+                            <li>
+                                <a href="#大语言模型" class="smooth">
+                                    <span class="title">AI写作办公工具</span>
+                                    <span class="label label-pink pull-right hidden-collapsed">100+</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#图片设计" class="smooth">
+                                    <span class="title">AI绘画创作工具</span>
 
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#图片设计" class="smooth">  <i class="linecons-lightbulb"></i>
-                            <span class="title">AI语音创作工具</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#图片设计" class="smooth">
+                                    <span class="title">AI语音创作工具</span>
 
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#视频设计" class="smooth">  <i class="linecons-lightbulb"></i>
-                            <span class="title">AI视频创作工具</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#视频设计" class="smooth">
+                                    <span class="title">AI视频创作工具</span>
 
-                        </a>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
 
                     <li>
@@ -172,7 +178,7 @@
                             <i class="linecons-pencil"></i>
                             <span class="title">AI企业服务</span>
                         </a>
-                        <ul style="display: block;">
+                        <!-- <ul style="display: block;">
                             <li>
                                 <a href="#AI行业应用案例" class="smooth">
                                     <span class="title">AI行业应用案例</span>
@@ -185,7 +191,7 @@
                                     <span class="label label-pink pull-right hidden-collapsed">Hot</span>
                                 </a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </li>
           
                     <li>
@@ -240,6 +246,10 @@
             </div>
         </div>
         <div class="main-content">
+
+        
+
+
             <nav class="navbar user-info-navbar" role="navigation" style="margin-bottom: 5px;">
                 <!-- User Info, Notifications and Menu Bar -->
                 <!-- Left links for user info navbar -->
@@ -348,130 +358,224 @@
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="常用推荐"></i>常用推荐</h4>
             <div class="row">
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://dribbble.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://dribbble.com/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://chat.openai.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://chat.openai.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="./assets/images/logos/dribbble.png" class="lozad img-circle" width="40">
+                                <img data-src="./assets/images/logos/GPT.png" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Dribbble</strong>
+                                    <strong>ChatGPT官网</strong>
                                 </a>
-                                <p class="overflowClip_2">全球UI设计师作品分享平台。</p>
+                                <p class="overflowClip_2">公认地表最强人工智能
+                                    <br/><span class="badge badge-danger">外网</span>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://behance.net/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://behance.net/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://bard.google.com/chat', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://bard.google.com/chat">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="./assets/images/logos/behance.png" class="lozad img-circle" width="40">
+                                <img data-src="./assets/images/logos/bard.png" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Behance</strong>
+                                    <strong>谷歌Bard</strong>
                                 </a>
-                                <p class="overflowClip_2">Adobe旗下的设计师交流平台，来自世界各地的设计师在这里分享自己的作品。</p>
+                                <p class="overflowClip_2">谷歌旗下的人工智能机器人
+                                    <br/><span class="badge badge-danger">外网</span>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.ui.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.ui.cn/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://yiyan.baidu.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://yiyan.baidu.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="./assets/images/logos/uicn.png" class="lozad img-circle" width="40">
+                                <img data-src="./assets/images/logos/文心一言.png" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>UI中国</strong>
+                                    <strong>文心一言</strong>
                                 </a>
-                                <p class="overflowClip_2">图形交互与界面设计交流、作品展示、学习平台。</p>
+                                <p class="overflowClip_2">百度旗下的文心一言，中文最友好。</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.zcool.com.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.zcool.com.cn/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://tongyi.aliyun.com/qianwen/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://tongyi.aliyun.com/qianwen/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="./assets/images/logos/zcool.png" class="lozad img-circle" width="40">
+                                <img data-src="./assets/images/logos/通义千问.jpg" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>站酷</strong>
+                                    <strong>通义千问</strong>
                                 </a>
-                                <p class="overflowClip_2">中国人气设计师互动平台</p>
+                                <p class="overflowClip_2">阿里旗下人工智能机器人，综合实力强。</p>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://hunyuan.tencent.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://hunyuan.tencent.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="./assets/images/logos/腾讯混元.jpg" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>混元大模型</strong>
+                                </a>
+                                <p class="overflowClip_2">腾讯旗下人工智能机器人，综合实力强。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.baichuan-ai.com/home', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.baichuan-ai.com/home">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="./assets/images/logos/百川.jpg" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>百川大模型</strong>
+                                </a>
+                                <p class="overflowClip_2">百川人工智能机器人，综合实力强。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.midjourney.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.midjourney.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="./assets/images/logos/Midjourney.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Midjourney</strong>
+                                </a>
+                                <p class="overflowClip_2">最流行的AI绘画工具</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://huggingface.co/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://huggingface.co/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="./assets/images/logos/HuggingFace.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>HuggingFace</strong>
+                                </a>
+                                <p class="overflowClip_2">开源模型分享下载社区
+                                    <br/><span class="badge badge-danger">外网</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://huggingface.co/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://huggingface.co/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="./assets/images/logos/Copilot.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>微软 Copilot</strong>
+                                </a>
+                                <p class="overflowClip_2">微软旗下大模型，免费无限次使用。
+                                    <br/><span class="badge badge-danger">外网</span>
+                                    <span class="badge badge-primary">免费</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+
                 
             </div>
          
             <br />
             <!-- END 常用推荐 -->
-            <!-- 推荐 -->
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="界面灵感"></i>推荐</h4>
+            <!-- GPT拼车资源开始 -->
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="GPT拼车资源"></i>GPT拼车资源（GPT4限时免费）</h4>
             <div class="row">
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.aliyun.com/minisite/goods?userCode=xtct5egx&share_source=copy_link', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.aliyun.com/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://oai.xiamis.xyz/?from=1081', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://oai.xiamis.xyz/?from=1081">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="./assets/images/logos/aliyun.png" class="lozad img-circle" width="40">
+                                <img data-src="./assets/images/logos/xiami.ico" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>阿里云</strong>
+                                    <strong>智慧虾米</strong>
                                 </a>
-                                <p class="overflowClip_2">点击领取2000元限量云产品优惠券</p>
+                                <p class="overflowClip_2">GPT3.5无限制,GPT4.0限时免费
+                                    <br/><span class="badge badge-primary">GPT4</span>
+                                    <span class="badge badge-primary">GPT3.5</span>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.gulusucai.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.gulusucai.com/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://dedegpt.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://dedegpt.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="./assets/images/logos/gulusucai.png" class="lozad img-circle" width="40">
+                                <img data-src="./assets/images/logos/GPT.png" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>咕噜素材</strong>
+                                    <strong>潘多拉</strong>
                                 </a>
-                                <p class="overflowClip_2">质量很高的设计素材网站（推荐）</p>
+                                <p class="overflowClip_2">验证码：dedegpt，打不开可以用无痕模式打开或者清除浏览器缓存试试哦
+                                    <span class="badge badge-primary">GPT3.5</span>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://xiyou4you.us/r/?s=13731627', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://xiyou4you.us">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://chat18.aichatos.xyz/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://chat18.aichatos.xyz/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="./assets/images/logos/xiyou.png" class="lozad img-circle" width="40">
+                                <img data-src="./assets/images/logos/GPT.png" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>西游-科学上网</strong>
+                                    <strong>AIchatOS</strong>
                                 </a>
-                                <p class="overflowClip_2">优秀的科学上网（略贵，但是贼稳，点击注册领取优惠券）</p>
+                                <p class="overflowClip_2">gpt3.5无限免费
+                                    <span class="badge badge-primary">GPT3.5</span>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
                
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.shejizhoukan.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.shejizhoukan.com/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.https://poe.com/ChatGPT', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://poe.com/ChatGPT">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="./assets/images/logos/shejizhoukan.png" class="lozad img-circle" width="40">
+                                <img data-src="./assets/images/logos/gpt.png" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>设计周刊</strong>
+                                    <strong>Poe</strong>
                                 </a>
-                                <p class="overflowClip_2">最新设计资讯（每天更新）</p>
+                                <p class="overflowClip_2">魔法(VPN)加持下的最佳选择！<span class="badge badge-primary">GPT3.5</span></p>
                             </div>
                         </div>
                     </div>
@@ -479,38 +583,146 @@
             </div>
             <div class="row">
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.ziticangku.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.ziticangku.com/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://ai27.gptforlove.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://ai27.gptforlove.com/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="./assets/images/logos/ziticangku.png" class="lozad img-circle" width="40">
+                                <img data-src="./assets/images/logos/gpt.png" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>字体仓库</strong>
+                                    <strong>GptForLove</strong>
                                 </a>
-                                <p class="overflowClip_2">最全的免费商用字体库</p>
+                                <p class="overflowClip_2">国内可直接访问的GPT3.5链接 <span class="badge badge-primary">GPT3.5</span></p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://eleduck.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://eleduck.com/">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://chat4.free2gpt.xyz/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://chat4.free2gpt.xyz/">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="./assets/images/logos/eleduck.png" class="lozad img-circle" width="40">
+                                <img data-src="./assets/images/logos/gpt.png" class="lozad img-circle" width="40">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>电鸭社区</strong>
+                                    <strong>free2gpt</strong>
                                 </a>
-                                <p class="overflowClip_2">国内最早的远程工作社区，也是互联网工作者们的聚集地，非常适合设计开发小伙伴关注</p>
+                                <p class="overflowClip_2">稳定持续更新的GPT3.5资源 <span class="badge badge-primary">GPT3.5</span></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <br />
-            <!--END 推荐 -->            
+            <!--END GPT拼车资源 -->     
+            
+            
+            <!-- AI学习资源 -->
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="AI入门科普"></i>AI入门科普</h4>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://oai.xiamis.xyz/?from=1081', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://oai.xiamis.xyz/?from=1081">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="./assets/images/logos/xiami.ico" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>智慧虾米</strong>
+                                </a>
+                                <p class="overflowClip_2">GPT3.5无限制,GPT4.0限时免费
+                                    <br/><span class="badge badge-primary">GPT4</span>
+                                    <span class="badge badge-primary">GPT3.5</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://dedegpt.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://dedegpt.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="./assets/images/logos/GPT.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>潘多拉</strong>
+                                </a>
+                                <p class="overflowClip_2">验证码：dedegpt，打不开可以用无痕模式打开或者清除浏览器缓存试试哦
+                                    <span class="badge badge-primary">GPT3.5</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://chat18.aichatos.xyz/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://chat18.aichatos.xyz/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="./assets/images/logos/GPT.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>AIchatOS</strong>
+                                </a>
+                                <p class="overflowClip_2">gpt3.5无限免费
+                                    <span class="badge badge-primary">GPT3.5</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.https://poe.com/ChatGPT', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://poe.com/ChatGPT">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="./assets/images/logos/gpt.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Poe</strong>
+                                </a>
+                                <p class="overflowClip_2">魔法(VPN)加持下的最佳选择！<span class="badge badge-primary">GPT3.5</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://ai27.gptforlove.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://ai27.gptforlove.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="./assets/images/logos/gpt.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>GptForLove</strong>
+                                </a>
+                                <p class="overflowClip_2">国内可直接访问的GPT3.5链接 <span class="badge badge-primary">GPT3.5</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://chat4.free2gpt.xyz/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://chat4.free2gpt.xyz/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="./assets/images/logos/gpt.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>free2gpt</strong>
+                                </a>
+                                <p class="overflowClip_2">稳定持续更新的GPT3.5资源 <span class="badge badge-primary">GPT3.5</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <!--END AI学习资源 -->     
            
             <!-- Main Footer -->
             <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
