@@ -918,13 +918,13 @@ body {
     display: table-cell;
     position: relative;
     width: 250px;
-    background: #2c2e2f;
+    background: #0f1932;
     z-index: 1
 }
 
 .sidebar-menu .logo-env {
     padding: 19px 45px;
-    border-bottom: 1px solid #313437
+    border-bottom: 1px solid #102031
 }
 
 .sidebar-menu .logo-env .logo {
@@ -971,11 +971,11 @@ body {
 }
 
 .sidebar-menu .main-menu a {
-    color: #979898;
+    color: #d5cfcf;
     text-decoration: none;
     display: block;
     padding: 13px 5px;
-    border-bottom: 1px solid #313437
+    border-bottom: 1px solid #102031
 }
 
 .sidebar-menu .main-menu a>i {
@@ -1271,7 +1271,7 @@ body {
     }
     .sidebar-menu.collapsed .main-menu>li>ul {
         position: absolute;
-        background: #2c2e2f;
+        background: #0f1932;
         width: 250px;
         top: 0;
         left: 100%;
@@ -1385,7 +1385,7 @@ body {
 }
 
 .settings-pane-open .navbar.horizontal-menu .navbar-inner .navbar-brand a[data-toggle=settings-pane] i {
-    color: #2c2e2f
+    color: #0f1932
 }
 
 .navbar.horizontal-menu .navbar-inner .navbar-brand a {
@@ -1415,7 +1415,7 @@ body {
 }
 
 .navbar.horizontal-menu .navbar-inner .navbar-brand a[data-toggle=settings-pane]:hover i {
-    color: #2c2e2f
+    color: #0f1932
 }
 
 @media screen and (min-width:768px) {
@@ -1874,7 +1874,7 @@ body {
 
 @media screen and (max-width:768px) {
     .navbar.horizontal-menu {
-        background: #2c2e2f;
+        background: #0f1932;
         color: #fff;
         height: auto
     }
@@ -2384,7 +2384,7 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
 
 .user-info-navbar .user-info-menu>li.fullscreen:hover a {
     background-color: #fafafa;
-    color: #2c2e2f
+    color: #0f1932
 }
 
 .user-info-navbar .user-info-menu>li.search-form,
@@ -2773,7 +2773,7 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
 
 .user-info-navbar .user-info-menu>li .dropdown-menu.notifications .dropdown-menu-list>li.notification-primary>a>i,
 .navbar.horizontal-menu .navbar-inner>.nav>li .dropdown-menu.notifications .dropdown-menu-list>li.notification-primary>a>i {
-    background-color: #2c2e2f
+    background-color: #0f1932
 }
 
 .user-info-navbar .user-info-menu>li .dropdown-menu.notifications .dropdown-menu-list>li.notification-success>a>i,
@@ -2890,7 +2890,7 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
 .user-info-navbar .user-info-menu>li .dropdown-menu.languages li.active a,
 .navbar.horizontal-menu .navbar-inner>.nav>li .dropdown-menu.languages li.active a {
     background-color: #f6f6f6;
-    color: #2c2e2f
+    color: #0f1932
 }
 
 .user-info-navbar .user-info-menu>li .dropdown-menu.languages li+li,
@@ -2939,7 +2939,7 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
 }
 
 .badge.badge-primary {
-    background-color: #2c2e2f
+    background-color: #0f1932
 }
 
 .badge.badge-secondary {
@@ -3597,7 +3597,7 @@ body.chat-open #chat {
 }
 
 .footer-sticked-chat .chat-conversations>li .chat-user:hover {
-    color: #2c2e2f
+    color: #0f1932
 }
 
 .footer-sticked-chat .chat-conversations>li .badge {
@@ -3836,7 +3836,7 @@ body.chat-open #chat {
 }
 
 .footer-sticked-chat .chat-conversations>li.browse-more .other-conversations-list li a:hover {
-    color: #2c2e2f
+    color: #0f1932
 }
 
 .footer-sticked-chat .chat-conversations>li.browse-more .other-conversations-list li a:hover span {
@@ -4180,7 +4180,7 @@ body.chat-open #chat {
 }
 
 .panel.panel-inverted {
-    background: #2c2e2f;
+    background: #0f1932;
     color: #FFF
 }
 
@@ -4956,7 +4956,7 @@ body.chat-open #chat {
 }
 
 .cbr-replaced.cbr-primary .cbr-state {
-    background: #2c2e2f;
+    background: #0f1932;
     border-color: #323435
 }
 
@@ -4973,7 +4973,7 @@ body.chat-open #chat {
 }
 
 .cbr-replaced.cbr-primary.cbr-radio.cbr-checked .cbr-state span {
-    background: #2c2e2f
+    background: #0f1932
 }
 
 .cbr-replaced.cbr-secondary .cbr-state {
@@ -5742,8 +5742,8 @@ label.cbr-inline+.cbr-inline {
 }
 
 .dropdown-menu.dropdown-primary {
-    background: #2c2e2f;
-    border-color: #2c2e2f
+    background: #0f1932;
+    border-color: #0f1932
 }
 
 .dropdown-menu.dropdown-primary .divider {
@@ -6171,7 +6171,7 @@ label.cbr-inline+.cbr-inline {
 }
 
 .label.label-primary {
-    background-color: #2c2e2f;
+    background-color: #0f1932;
     color: #fff
 }
 
@@ -6265,7 +6265,7 @@ label.cbr-inline+.cbr-inline {
 }
 
 .popover.popover-primary .popover-title {
-    background-color: #2c2e2f;
+    background-color: #0f1932;
     color: #FFF;
     position: relative
 }
@@ -6276,7 +6276,7 @@ label.cbr-inline+.cbr-inline {
 }
 
 .popover.popover-primary.bottom .arrow:after {
-    border-bottom-color: #2c2e2f
+    border-bottom-color: #0f1932
 }
 
 .popover.popover-secondary .popover-title {
@@ -6419,23 +6419,23 @@ label.cbr-inline+.cbr-inline {
 }
 
 .tooltip.tooltip-primary .tooltip-inner {
-    background-color: #2c2e2f
+    background-color: #0f1932
 }
 
 .tooltip.tooltip-primary.top .tooltip-arrow {
-    border-top-color: #2c2e2f
+    border-top-color: #0f1932
 }
 
 .tooltip.tooltip-primary.bottom .tooltip-arrow {
-    border-bottom-color: #2c2e2f
+    border-bottom-color: #0f1932
 }
 
 .tooltip.tooltip-primary.left .tooltip-arrow {
-    border-left-color: #2c2e2f
+    border-left-color: #0f1932
 }
 
 .tooltip.tooltip-primary.right .tooltip-arrow {
-    border-right-color: #2c2e2f
+    border-right-color: #0f1932
 }
 
 .tooltip.tooltip-secondary .tooltip-inner {
@@ -6867,7 +6867,7 @@ blockquote small {
 .table>thead>tr>th {
     position: relative;
     border-bottom: 1px solid #eee;
-    color: #2c2e2f
+    color: #0f1932
 }
 
 .table>thead>tr>td:after,
@@ -6908,7 +6908,7 @@ blockquote small {
     border-top: 1px solid #eee;
     padding: 12px 15px;
     position: relative;
-    color: #2c2e2f
+    color: #0f1932
 }
 
 .table>tfoot>tr>td:after,
@@ -7777,7 +7777,7 @@ address {
 
 .skin-name-link {
     font-weight: 700;
-    color: #2c2e2f
+    color: #0f1932
 }
 
 .skin-name-link:hover {
@@ -7981,7 +7981,7 @@ div.scrollable {
 }
 
 .icon-collection .fontawesome-icon-list .fa-hover .icon-str>span:hover {
-    color: #2c2e2f
+    color: #0f1932
 }
 
 @media (max-width:991px) {
@@ -8022,7 +8022,7 @@ div.scrollable {
 
 .layout-variants .layout-variant:hover .layout-name a,
 .layout-variants .layout-variant.layout-current .layout-name a {
-    color: #2c2e2f
+    color: #0f1932
 }
 
 .layout-variants .layout-variant .layout-img {
@@ -8424,7 +8424,7 @@ lesshat-selector {
     bottom: 0;
     right: 0;
     overflow: hidden;
-    background: #2c2e2f;
+    background: #0f1932;
     z-index: 10000;
     -webkit-perspective: 10000;
     -moz-perspective: 10000;
@@ -8509,7 +8509,7 @@ img.img-corona {
 
 .highlights .entry-description h3 {
     margin-top: 10px;
-    color: #2c2e2f
+    color: #0f1932
 }
 
 @media screen and (max-width:768px) {
@@ -8520,7 +8520,7 @@ img.img-corona {
 }
 
 .highlights .entry-description h3 a {
-    color: #2c2e2f
+    color: #0f1932
 }
 
 @media screen and (min-width:1500px) {
@@ -8897,7 +8897,7 @@ mark,
 }
 
 .text-primary {
-    color: #2c2e2f
+    color: #0f1932
 }
 
 a.text-primary:hover {
