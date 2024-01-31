@@ -1,5 +1,5 @@
 
-<img src="https://www.huggingface.org.cn/assets/images/logo@2x.png" alt="AI侦探社" width="360">
+![AI侦探社](https://www.huggingface.org.cn/assets/images/logo@1x.png "AI侦探社")
 
 ## AI侦探社,AI中文社区
 ### 网址记得收藏: [➡️ www.huggingface.org.cn](http://www.huggingface.org.cn)
