@@ -1,5 +1,6 @@
-
-![AI侦探社](https://www.huggingface.org.cn/assets/images/logo@1x.png "AI侦探社")
+<a href="https://gitee.com/link?target=https%3A%2F%2Fwww.huggingface.org.cn">
+        <img width="100%" src="https://www.huggingface.org.cn/wp-content/uploads/2024/02/AD-2.jpg">
+        </a>
 
 ## AI侦探社,AI中文社区
 ### 网址记得收藏: [➡️ www.huggingface.org.cn](http://www.huggingface.org.cn)
